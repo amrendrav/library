@@ -1,13 +1,15 @@
 package com.adam.library.vo;
 
 import com.adam.library.domain.Address;
-import com.adam.library.enums.UserStatus;
-import com.adam.library.enums.UserType;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class UserVO {
 
     private String userId;
