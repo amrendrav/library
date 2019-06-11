@@ -5,7 +5,20 @@ spring:
       database: library
       host: localhost
       port: 27017
-
+ # mail:
+  #  host:
+   # username:
+    #password:
+    #properties:
+     # mail:
+      #  transport:
+       #   protocol:
+        #smtp:
+         # port:
+          #auth:
+          #starttls:
+           # enable:
+            #required:
 
 logging:
   level:
@@ -16,3 +29,4 @@ logging:
             core: DEBUG
 
         security: DEBUG
+
