@@ -30,3 +30,7 @@ logging:
 
         security: DEBUG
 
+twilio:
+  sid: AC76878a21d8cffbdd9a98c53521a65cda
+  token: 23c0cb9e5f55f477a64f452de882e1c5
+  number: +14074557061
