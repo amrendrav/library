@@ -35,6 +35,8 @@ Phase 1:  -> Local working app
  9. SMTP Configuration
  10. Schedular job to send email
  
- Phase: 2 : -> Deploy to AWS
+ Phase: 2 : -> Adding reactive stack and Kafka integration
+ 
+ Phase: 3 : -> Deploy to AWS
  
  
