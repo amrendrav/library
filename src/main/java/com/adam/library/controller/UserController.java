@@ -29,7 +29,7 @@ public class UserController {
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public User createUser(@RequestBody UserVO user){
-        log.info("Creating user with userId : {} and parentsName : {}", user.getUserId(), user.getParentName());
+        log.info("Creating user with userId : {} and parentsName  : {}", user.getUserId(), user.getParentName());
         PreConditionValidator.checkFound(user.getParentName());
 
 
